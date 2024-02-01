@@ -35,7 +35,7 @@ Some general points:
 
 Two simplified parts of the same application environment are provided: A database dump and an API service. Your task is to automate setting up the production environment in a reliable and testable manner using "infrastructure as code" principles.
 
-The goal is to end up with a limited set of commands that would install and run them using containers. You can use any software that you find suitable for the task. The code should come with instructions on how to run and deploy it to AWS (or any other cloud you are comfortable with).
+The goal is to end up with a limited set of commands that would install and run them using containers. You can use any software that you find suitable for the task. The code should come with instructions on how to run and deploy it to AZURE (or any other cloud you are comfortable with).
 
 ### Running the database
 
@@ -112,7 +112,7 @@ The output should be something like this:
 
 In this section we are seeking high-level answers only (no need to implement anything), and describe your solution appropriately.
 
-We use AWS RDS to host our PostgreSQL database that powers critical data services within CFP. Due to compliance requirements, we need to enable end-to-end auditing capability for any operation performed in the database. Along with that, we need an automated solution that rotates database user passwords every 30 days. The database being accessed by both CFP internal users and any applications hosted in AWS ECS.
+We use Azure Database for PostgreSQL to host our PostgreSQL database that powers critical data services within CFP. Due to compliance requirements, we need to enable end-to-end auditing capability for any operation performed in the database. Along with that, we need an automated solution that rotates database user passwords every 30 days. The database being accessed by both CFP internal users and any applications hosted in AZURE.
 Users will be created on request and a data security personal must approve the request.
 
 Propose a solution that we can implement to achieve the objectives while having zero downtime for the CFP applications.
