@@ -2,12 +2,15 @@
 
 Welcome to the challenge, please remember there is no wrong or right way to do this challenge just bear in mind the following;
 
-* Build it with security in mind
+* Build with a DevSecOps mindset
 * Spend no more than 4 hours on this challenge
+* Be prepared to present your solution to the team during an in-person 30 min run-through. 
+
 
 It is recommended that you use 
-* AZURE
-* Terraform
+* Get it running locally using Docker with Terraform or Pulumi
+* Provide steps to run in IaaS (Azure preferably) if time does not permit you to create the solution locally and ready for cloud
+* Ensure you have an accurate readme
 
 The task is two-fold:
 
@@ -19,7 +22,7 @@ You will be expected to present and discuss both solutions.
 
 Some general points:
 
-* **Provide the solution as a public git repository that our team can easily clone.**
+* **Provide the solution as a public git repository that our team can easily clone rather than forking this repo.**
 
 * Provide instructions to run the automation solution in `README.md`.
 
